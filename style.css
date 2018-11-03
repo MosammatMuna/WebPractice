@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+}
+
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+h1, h2, h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: orange !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/*Navigation*/
+.navbar {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+/*Header*/
+.header {
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 500px;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+/* ABOUT US */
+.about {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+.about span {
+    width: 100px;
+    color: #4c4c4c;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.about i {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    padding: 15px 0 10px;
+    border-radius: 40%;
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.about i:hover {
+    color: white;
+    background-color: green;
+    height: 75px;
+    width: 75px;
+    padding: 25px;
+}
+
+/*MEET OUR TEAM*/
+
+.team h3 {
+    margin-top: 30px;
+}
+
+.team img {
+    margin-top: 30px;
+    border-radius: 40%;
+}
+
+.team p {
+    color: #737373;
+}
+
+
+/*DONATE*/ 
+
+.donate {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.donate button {
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+}
+
+.donate .btn:hover {
+    background-color: #428bca !important;
+    color: #fff !important;
+}
+
+.donate .form-control {
+    width: 330px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.footer .btn {
+    margin-top: 5px;
+}
+
+.footer i {
+    font-size: 20px;
+}
+
+/*CONTACT*/
+
+.contact {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.contact .message {
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.contact h2 {
+    text-align: center;
+}
