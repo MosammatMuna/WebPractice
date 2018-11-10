@@ -21,6 +21,7 @@ h1, h2, h4 {
 p{
     font-size: 15px;
     line-height: 25px;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -54,6 +55,7 @@ p{
     position: relative;
     margin: auto;
 }
+
 
 .header img{
     display: block;
@@ -138,7 +140,6 @@ a:hover {
     padding: 10px;
     margin: 5px;
 }
-
 
 /*FOOTER*/
 
